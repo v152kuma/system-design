@@ -21,3 +21,11 @@ print(middle_numbes)
 last_three= numbers[-3:]
 
 print(last_three)
+
+print(numbers[::-1]) # Reverse the list using slicin
+
+
+numbers_copy = numbers.copy()
+
+numbers_cipy_two = numbers_copy[:]
+
