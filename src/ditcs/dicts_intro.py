@@ -39,3 +39,11 @@ first_item = shopping_basket.popitem()
 print(f"First item: {first_item}")
 
 print (type(first_item))
+
+dict_squares = {x: x * x for x in range(500)}
+
+print(dict_squares)
+
+roots = {value: key for key, value in dict_squares.items()}
+
+print(roots)
